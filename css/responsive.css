@@ -1,0 +1,154 @@
+@media screen and (min-width: 768px) {
+
+    #navbar-toggle,
+    #navbar-toggle[aria-expanded="true"] {
+        display: none;
+    }
+
+    #navbar-menu,
+    #navbar-toggle[aria-expanded="true"] #navbar-menu {
+        visibility: visible;
+        opacity: 1;
+        position: static;
+        display: block;
+        height: 100%;
+    }
+
+    .navbar-links,
+    #navbar-toggle[aria-expanded="true"] #navbar-menu .navbar-links {
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        position: static;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+
+    .home .content .content-description h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .home .content .content-description h3 {
+        font-size: 30px;
+    }
+
+
+    .portfolio {
+        margin: 0;
+    }
+
+    .about .about-img img {
+        border: 4px solid #f1faee;
+        margin-left: 120px;
+        width: 200px;
+    }
+
+    .about .aboutme h2,
+    p {
+        text-align: left;
+        margin-right: 100px;
+    }
+
+    .about .aboutme h2 {
+        font-size: 30px;
+        letter-spacing: .5rem;
+
+
+    }
+
+    .about .aboutme p {
+        padding-top: 15px;
+        line-height: 1.5rem;
+        font-size: 20px;
+
+    }
+
+    #contact {
+        padding: 1rem;
+    }
+
+    .portfolios {
+        padding: 1rem;
+
+    }
+
+    #skills {
+        padding: 1rem;
+    }
+
+    .skills-right p {
+        text-align: left;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .home .content .content-description h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .home .content .content-description h3 {
+        font-size: 30px;
+    }
+
+
+    .portfolio {
+        margin: 0;
+    }
+
+    .about .about-img img {
+        border-radius: 50%;
+        border: 4px solid #f1faee;
+        margin-left: 120px;
+        width: 200px;
+    }
+
+    .about .aboutme h2,
+    p {
+        text-align: center;
+    }
+
+    .about .aboutme h2 {
+        font-size: 30px;
+        letter-spacing: .5rem;
+
+
+    }
+
+    .about .aboutme p {
+        padding-top: 15px;
+        line-height: 1.5rem;
+        font-size: 20px;
+
+    }
+
+    #contact {
+        padding: 1rem;
+    }
+
+    .portfolios {
+        padding: 1rem;
+
+    }
+
+    #skills {
+        padding: 1rem;
+    }
+
+    .skills-right p {
+        text-align: left;
+    }
+
+    footer p {
+        text-align: center;
+        padding-left: 0;
+    }
+
+
+
+
+}
