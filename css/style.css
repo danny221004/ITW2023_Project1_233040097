@@ -195,8 +195,7 @@ strong {
 /* Main */
 
 .home {
-    width: 100%;
-    margin-inline: auto;
+    width: auto;
     padding: 250px 1rem;
     background-color: #003049;
     text-align: center;
